@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modal</title>
+
+    <!--css bootstrap-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
+    <!--js-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container" style="margin-top:50px">
+
+    <a href="#" class="btn btn-success" data-toggle="modal" data-target="#MonPremierModal">Ouvrir le Modal</a>
+
+    <!--Corp du modal-->
+    <div class="modal fade" id="MonPremierModal">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title"> Titre de notre super Modal</h4>
+                    <button type="button" class="close" data-dismiss="modal">x</button>
+                </div>
+                <div class="modal-body">
+                    <p>Hello les amis !</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn-success" data-dismiss="modal">Fermer</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!--Fin-->
+</div>
+
+</body>
